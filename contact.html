@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Food Blog">
+    <title>Food Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about.html">About Page</a></li>
+                <li><a href="contact.html" class="active">Contact Page</a></li>
+                <li><a href="blogposts.html">Blog Posts</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="index.html" class="logo">Food Blog | Inspiration & Recipes</a>
+        </div>
+    </header>
+    <main>
+        <h1>Send Me a Message</h1>
+        <form action="submit.php" method="post">
+            <div>
+                <section class="form-wrapper">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="fullname">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject">
+                </section>
+                <section class="form-two">
+                    <label for="message" class="form-message">Message</label>
+                    <textarea type="text" id="message" name="message"></textarea>
+                </section>
+            </div>
+            <input type="submit" value="Send Now" class="cta" />
+        </form>
+    </main>
+    <footer>Copyright &copy;</footer>
+</body>
+
+</html>

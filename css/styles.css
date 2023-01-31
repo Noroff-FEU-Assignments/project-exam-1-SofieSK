@@ -1,0 +1,29 @@
+/*Header*/
+
+.header-one {
+    background-color: #123B42;
+    text-align: center;
+}
+
+.header-two {
+    background-color: #294E54;
+    text-align: center;
+}
+
+header a {
+    justify-content: space-evenly;
+}
+
+
+nav li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    text-decoration: underline;
+}
